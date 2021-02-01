@@ -1,0 +1,7 @@
+[user]
+	name = Ronnie Brown
+	email = ronnie.brown@hilton.com
+[color]
+	ui = auto
+[commit]
+	template = /Users/ronniebrown01/Work/commit-conventions.txt
