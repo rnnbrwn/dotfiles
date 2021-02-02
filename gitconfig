@@ -4,4 +4,4 @@
 [color]
 	ui = auto
 [commit]
-	template = /Users/ronniebrown01/Work/commit-conventions.txt
+	template = ~/Work/commit-conventions.txt

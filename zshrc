@@ -1,8 +1,68 @@
+# START commands taken from eieio.xyz course
+echo 'Hello from .zshrc'
+
+# Set Variables
+
+
+
+# Change ZSH Option
+
+
+
+# Create Aliases
+
+
+
+# Customise Prompt(s)
+# PROMPT='%~ %% '
+PROMPT='
+%1~ %L %# '
+
+RPROMPT='%*'
+
+
+
+# Add Locations to $PATH Variable
+
+
+
+# Write Handy Functions
+function mkcd(){
+    mkdir -p "$@" && cd "$_";
+}
+
+
+# Use ZSH Plugins
+
+
+
+# ... and Other Surprises
+
+
+
+
+
+
+
+
+
+# END commands taken from eieio.xyz course
+
+
+
+
+
+
+
+
+
+
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/ronniebrown01/.oh-my-zsh"
+## export ZSH="/Users/ronniebrown01/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -102,8 +162,9 @@ alias db="cd ~/Dropbox"
 alias work="cd ~/Work"
 alias dw="cd ~/Work/docker-wordpress"
 alias themes="cd ~/Work/docker-wordpress/workspace/wp/wp-content/themes"
-alias ls="ls -l"
 alias webstart="cd ~/Dropbox/3.\ Web\ Sites/web-starter"
+alias ls="ls -lAFh"
+
 # alias local="cd ~/Local\ Sites/"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
@@ -112,4 +173,24 @@ alias webstart="cd ~/Dropbox/3.\ Web\ Sites/web-starter"
 
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
-[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+# [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
+
+editZsh() {
+    code ~/.dotfiles/.zshrc
+    echo "Opening VS Code"
+}
+
+# Git aliases
+alias gi="git init"
+alias gs="git status -sbu"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias gp="git push"
+alias gm="git merge"
+alias ga="git add ."
+alias gcm="git commit"
+alias gpl="git pull"
+alias gst="git stash"
+alias gstl="git stash list"
+alias glg='git log --graph --oneline --decorate --all'
