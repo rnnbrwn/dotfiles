@@ -1,3 +1,3 @@
 # .dotfiles
 
-Everything taken from here: https://www.youtube.com/watch?v=r_MpUP6aKiQ
+Everything taken from Patrick McDonald's Udemy course, "Dotfiles from Start to Finish..."
