@@ -5,14 +5,16 @@
 - clean: ['~']
 
 - link:
-      ~/.zshrc:
-      ~/.gitconfig:
-      ~/.vscode:
-      ~/Library/Application Support/Code/User:
+    ~/.zshrc:
+    ~/.gitconfig:
+    ~/Library/Application Support/Code/User/keybindings.json: User/keybindings.json
+    ~/Library/Application Support/Code/User/settings.json: User/settings.json
 
 - create:
     - ~/Work
     - ~/.vim/undo-history
 
-# - shell:
-#  - [git submodule update --init --recursive, Installing submodules]
+- shell:
+#   - [git submodule update --init --recursive, Installing submodules]
+    - echo "hey you guys"
+    - sleep 5
