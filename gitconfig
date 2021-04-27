@@ -1,7 +1,5 @@
 [user]
 	name = Ronnie Brown
-	email = ronnie.brown@hilton.com
-[color]
-	ui = auto
+	email = 91823+rnnbrwn@users.noreply.github.com
 [commit]
-	template = ~/Work/commit-conventions.txt
+	template = commit-conventions.txt
