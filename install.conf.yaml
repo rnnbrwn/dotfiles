@@ -5,8 +5,10 @@
 - clean: ['~']
 
 - link:
-     ~/.zshrc:
-     ~/.gitconfig:
+      ~/.zshrc:
+      ~/.gitconfig:
+      ~/.vscode:
+      ~/Library/Application Support/Code/User:
 
 - create:
     - ~/Work

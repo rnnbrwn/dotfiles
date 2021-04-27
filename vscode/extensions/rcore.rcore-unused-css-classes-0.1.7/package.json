@@ -1,0 +1,66 @@
+{
+	"name": "rcore-unused-css-classes",
+	"displayName": "Unused CSS Classes for JavaScript/Angular/React",
+	"description": "Highlights unused css classes",
+	"version": "0.1.7",
+	"publisher": "rcore",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#0085c8",
+		"theme": "dark"
+	},
+	"repository": {
+		"url": ""
+	},
+	"keywords": [
+		"formater",
+		"unused",
+		"css",
+		"productivity"
+	],
+	"categories": [
+		"Linters",
+		"Formatters",
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"colors": [
+			{
+				"id": "rcore.unusedCssClassColor",
+				"description": "Decoration color for font color of unused css classes",
+				"defaults": {
+					"dark": "#585858",
+					"light": "#a5a5a5",
+					"highContrast": "#585858"
+				}
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "tslint -p ./",
+		"watch": "tsc -watch -p ./",
+		"build": "vsce package",
+		"publish": "vsce publish -p cmaczqxcqr3oq6kqgqh6p34zwgozgdzvj7tiksjxftu7dgnxurlq"
+	},
+	"devDependencies": {
+		"@types/node": "^8.9.1",
+		"tslint": "^5.16.0",
+		"typescript": "^3.5.1",
+		"@types/vscode": "^1.32.0"
+	},
+	"__metadata": {
+		"id": "3a94153c-971e-4ead-90a5-5399b38ab68b",
+		"publisherId": "12d7a6c7-5a50-4b0f-8129-b71f795cb9f0",
+		"publisherDisplayName": "R-CORE Technology"
+	}
+}

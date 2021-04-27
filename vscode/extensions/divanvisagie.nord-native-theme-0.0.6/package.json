@@ -1,0 +1,51 @@
+{
+	"name": "nord-native-theme",
+	"displayName": "Nord Native",
+	"version": "0.0.6",
+	"publisher": "divanvisagie",
+	"description": "The Arctic Ice Studio Nord theme with the blueish tint removed to match the dark mode background colours of the native os.",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nord Native",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nord-color-theme.json"
+			}
+		]
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"scripts": {
+		"docs": "http-server docs",
+		"build": "vsce package --out nord-native-visual-studio-code.vsix"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/divanvisagie/nord-native.git"
+	},
+	"keywords": [
+		"vscode-theme"
+	],
+	"author": "Divan Visagie",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/divanvisagie/nord-native/issues"
+	},
+	"homepage": "https://dvisagie.com/nord-native",
+	"devDependencies": {
+		"http-server": "^0.12.3",
+		"vsce": "^1.77.0"
+	},
+	"__metadata": {
+		"id": "9e832b88-f0e2-408e-ac4f-eddfaeb6b75c",
+		"publisherId": "dedf4a81-fd05-4034-972b-aff0a6ae4628",
+		"publisherDisplayName": "Divan Visagie"
+	},
+	"dependencies": {
+		"package-lock-only": "0.0.4"
+	}
+}

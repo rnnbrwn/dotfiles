@@ -1,0 +1,89 @@
+{
+	"name": "helpers-for-tailwindcss",
+	"displayName": "helpers-for-tailwindcss",
+	"description": "Some helper commands to help with TailwindCSS development",
+	"publisher": "BradenSawatsky",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.51.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bradensawatsky/vscode-tailwind-helpers.git"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:tailwind-helpers.extractSelectionToCSS",
+		"onCommand:tailwind-helpers.extractSelectionToVue",
+		"onCommand:tailwind-helpers.showTailwindDocumentation",
+		"onCommand:tailwind-helpers.showTailwindPlayground"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"menus": {
+			"editor/context": [
+				{
+					"when": "resourceLangId =~ /^(html|vue|jsx)$/",
+					"command": "tailwind-helpers.extractSelectionToCSS",
+					"group": "tailwind"
+				},
+				{
+					"when": "resourceLangId =~ /^(html|vue|jsx)$/",
+					"command": "tailwind-helpers.extractSelectionToVue",
+					"group": "tailwind"
+				},
+				{
+					"when": "resourceLangId =~ /^(html|vue|jsx)$/",
+					"command": "tailwind-helpers.showTailwindDocumentation",
+					"group": "tailwind"
+				},
+				{
+					"when": "resourceLangId =~ /^(html|vue|jsx)$/",
+					"command": "tailwind-helpers.showTailwindPlayground",
+					"group": "tailwind"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "tailwind-helpers.extractSelectionToCSS",
+				"title": "Tailwind: Extract Selected Classes To CSS Component"
+			},
+			{
+				"command": "tailwind-helpers.extractSelectionToVue",
+				"title": "Tailwind: Extract Selected HTML To Functional Vue Component"
+			},
+			{
+				"command": "tailwind-helpers.showTailwindDocumentation",
+				"title": "Tailwind: Show Documentation"
+			},
+			{
+				"command": "tailwind-helpers.showTailwindPlayground",
+				"title": "Tailwind: Show Playground"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.51.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.15.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.1.2",
+		"vscode-test": "^1.4.1"
+	},
+	"__metadata": {
+		"id": "0085e1d9-0921-43fe-a6db-3d5e46a01c88",
+		"publisherId": "c22b7205-5948-4b08-b714-4123f9527e83",
+		"publisherDisplayName": "Braden Sawatsky"
+	}
+}

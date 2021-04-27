@@ -1,0 +1,40 @@
+{
+	"name": "wordpress-snippet",
+	"displayName": "WordPress Snippet",
+	"description": "WordPress Snippet for Visual Studio Code",
+	"version": "1.1.5",
+	"publisher": "tungvn",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "php",
+				"path": "./snippets/functions.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/classes.json"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"vscode": "^0.11.0"
+	},
+	"__metadata": {
+		"id": "13ff980c-43ba-4895-a124-c04f3cec5486",
+		"publisherId": "90600741-bfb5-4755-9f39-1f5d882be55d",
+		"publisherDisplayName": "TungVN"
+	}
+}

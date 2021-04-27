@@ -1,0 +1,225 @@
+:root {
+    --toolbar-background: #222;
+    --toolbar-foreground: #eee;
+    --toolbar-foreground-hover: #fff;
+    --code-background: #222;
+    --code-foreground: #E5E9F0;
+    --footer-background: #f1f1f1;
+    --background-color: white;
+    --text-color: black;
+    --title-color: #222;
+    --subtitle-color: #333;
+    --link-color: #2222ff;
+    --link-color-visited: purple;
+  }
+  
+  
+  html {
+    width: 100%;
+    font-weight: 400;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  
+  a:visited {
+    color: var(--link-color-visited);
+  }
+  
+  nav {
+    font-kerning: auto;
+    background: var(--toolbar-background);
+    overflow: hidden;
+    height: 70px;
+  }
+  
+  nav a:visited {
+   color: var(--toolbar-foreground);
+  }
+  
+  nav a {
+    color: var(--toolbar-foreground);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: var(--toolbar-foreground-hover);
+  }
+  
+  nav > div {
+    max-width: 800px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 22px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav .links {
+    display: flex;
+    justify-content: space-evenly;
+    width: fit-content;
+  }
+  
+  @media (max-width: 860px) {
+    nav .links {
+      margin-right: 10px;
+    }
+  }
+  
+  nav h1 {
+    margin-top: 17px;
+    margin-bottom: 2px; 
+    font-weight: 400;
+  }
+  
+  nav h2 {
+    padding-top: 2px;
+    font-weight: 400;
+    padding-right: 22px;
+    font-size: 22px;
+    float: right;
+  }
+  
+  body {
+    color: var(--text-color);
+    background: var(--background-color);
+    margin: 0;
+    position: absolute;
+    width:100%;
+    min-height: 100vh;
+    font-size: 17px;
+    line-height: 1.47;
+    letter-spacing: -0.010em;
+  }
+  
+  h1 {
+    color: var(--title-color);
+    font-weight: 500;
+  }
+  
+  h2 {
+    color: var(--subtitle-color);
+    font-weight: 500;
+  }
+  
+  img{
+    max-width:100%;
+    max-height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  pre, .codehilite {
+    border-radius: 5px;
+  }
+  
+  pre {
+    background: var(--code-background);
+    color: var(--code-foreground);
+    font-size: 16px;
+    padding: 8px;
+    overflow-x: auto;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: var(--subtitle-color);
+    text-align: center;
+  }
+  
+  footer {
+    background: var(--footer-background);
+    color: var(--subtitle-color);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .content {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .post-content {
+    max-width: 800px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 22px;
+  }
+  
+  .comment-section {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+  }
+  
+  .posts-list {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .post-header {
+    max-height: 450px;
+    width: 100%;
+    resize: none;
+    object-fit: cover;
+  }
+  
+  .posts-list li {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .posts-list p {
+    margin-top: 5px;
+  }
+  
+  .posts-list span {
+    font-size: 12px;
+    color: var(--subtitle-color);
+    justify-content: right;
+  }
+  
+  p > code, li > code {
+      background: var(--code-background);
+      color: var(--code-foreground);
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 5px;
+      font-family: monospace;
+  }
+  
+  
+  .date {
+    color: var(--subtitle-color);
+    opacity: 0.9; 
+    font-size: 12px;
+  }
+  
+  table, td, th {
+    text-align: left;
+    padding: 5px 16px;
+    border-collapse: collapse;
+    border: 1px solid var(--subtitle-color);
+  }
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
