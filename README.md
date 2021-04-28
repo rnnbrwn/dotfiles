@@ -4,13 +4,13 @@ Everything taken from Patrick McDonald's Udemy course, "Dotfiles from Start to F
 
 ## Todo
 
-- [ ] Terminal preferences
-- [ ] Changed Shell to ZSH
-- [ ] Dock preferences
-- [ ] Mission control preference
-- [ ] finder show path bar
-- [ ] trackpad
-- [ ] .zshrc
+- [x] Terminal preferences
+- [x] Changed Shell to ZSH
+- [x] Dock preferences
+- [x] Mission control preference
+- [x] finder show path bar
+- [x] trackpad
+- [x] .zshrc
 - [ ] git (config and ssh)
 - [ ] homebrew branch
  
