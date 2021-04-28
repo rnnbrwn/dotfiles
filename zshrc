@@ -10,7 +10,10 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 
 # Create aliases
-alias ls="ls -lAFh"
+# alias ls="ls -lAFh"
+alias ls="exa -laFh --git"
+alias exa="exa -laFh --git"
+alias exatree="exa --tree --level=2"
 alias db="cd ~/dropbox; ls -l"
 alias cd..="cd .."
 alias work="cd ~/work"
