@@ -19,18 +19,19 @@ brew install microsoft-edge-dev --no-quarantine
 
 echo "\n<<< Downloading Design Tools >>>\n"
 
-brew install affinity-designer-beta
-brew install figma
+brew install affinity-designer-beta --no-quarantine
+brew install figma --no-quarantine
 
 echo "\n<<< Downloading Development Tools >>>\n"
 
-brew install visual-studio-code
-brew install visual-studio-code-insiders
+brew install visual-studio-code --no-quarantine
+brew install visual-studio-code-insiders --no-quarantine
 
 echo "\n<<< Downloading Miscellaneous Tools >>>\n"
 
-brew install spotify
-brew install dropbox
-brew install dropbox-passwords
-brew install tunnelbear
-brew install --no-quarantine alfred
+brew install spotify --no-quarantine
+brew install dropbox --no-quarantine
+brew install dropbox-passwords --no-quarantine
+brew install tunnelbear --no-quarantine
+brew install alfred --no-quarantine
+brew install discord --no-quarantine
