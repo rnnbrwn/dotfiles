@@ -8,6 +8,8 @@ brew "bat"
 brew "exa"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Mac App Store command-line interface
+brew "mas"
 # Platform built on V8 to build network applications
 brew "node", link: false
 # Manage multiple Node.js versions
@@ -52,3 +54,8 @@ cask "tunnelbear"
 cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
+mas "Bear", id: 1091189122
+mas "Clean", id: 418412301
+mas "GIPHY CAPTURE", id: 668208984
+mas "Magnet", id: 441258766
+mas "Tomato One", id: 907364780
