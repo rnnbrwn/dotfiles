@@ -12,5 +12,5 @@ Everything taken from Patrick McDonald's Udemy course, "Dotfiles from Start to F
 - [x] trackpad
 - [x] .zshrc
 - [ ] git (config and ssh)
-- [ ] homebrew branch
+- [x] homebrew branch
  
