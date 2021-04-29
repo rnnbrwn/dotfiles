@@ -20,8 +20,27 @@ alias work="cd ~/work"
 alias personal="cd ~/personal"
 
 # Customise prompt(s)
+
+function git_branch_name()
+{
+  branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+  if [[ $branch == "" ]];
+  then
+    :
+  else
+    echo '- ('$branch')'
+  fi
+}
+
+# Enable substitution in the prompt.
+setopt prompt_subst
+
+# Config for prompt. PS1 synonym.
+# prompt='%2/ $(git_branch_name) > '
+
+
 PROMPT='
-%1~ %L %# '
+%1~ %L %# $(git_branch_name) '
 
 RPROMPT='%*'
 
