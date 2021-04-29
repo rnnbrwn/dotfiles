@@ -3,3 +3,8 @@
 	email = 91823+rnnbrwn@users.noreply.github.com
 [commit]
 	template = commit-conventions.txt
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

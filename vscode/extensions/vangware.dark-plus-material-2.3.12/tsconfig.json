@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2018"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

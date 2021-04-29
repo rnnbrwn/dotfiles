@@ -125,12 +125,13 @@
         "markdown"
     ],
     "workbench.preferredDarkColorTheme": "Night Owl",
-    "workbench.colorTheme": "Panda Syntax",
+    "workbench.colorTheme": "Dark+ Material",
     "color-highlight.languages": [
          "*"
     ],
     "color-highlight.sass.includePaths": [
         "sass/styles.scss"
     ],
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "sync.gist": "4a5cbd44781cbacaf76cb177ac466c1b"
 }
