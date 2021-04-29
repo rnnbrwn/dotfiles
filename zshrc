@@ -2,8 +2,6 @@ echo "Hello from .zshrc"
 
 # Set variables
 
-# Syntax highlighting for man pages
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH options
@@ -18,6 +16,7 @@ alias db="cd ~/dropbox; ls -l"
 alias cd..="cd .."
 alias work="cd ~/work"
 alias personal="cd ~/personal"
+alias man=batman
 
 # Customise prompt(s)
 

@@ -1,3 +1,4 @@
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -16,6 +17,8 @@ brew "node", link: false
 brew "nvm"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 # Photo editing and graphic design software
 cask "affinity-designer-beta"
 # Application launcher and productivity software
@@ -34,6 +37,8 @@ cask "firefox"
 cask "firefox-developer-edition"
 # Web browser
 cask "firefox-nightly"
+# Git client focusing on productivity
+cask "gitkraken"
 # Web browser
 cask "google-chrome"
 # Web browser
