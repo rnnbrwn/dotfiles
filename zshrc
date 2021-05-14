@@ -39,7 +39,7 @@ setopt prompt_subst
 
 
 PROMPT='
-%1~ %L %# $(git_branch_name) '
+%B%F{33}%1~%f%b %F{67}%L%f %F{yellow}$(git_branch_name)%f '
 
 RPROMPT='%*'
 
