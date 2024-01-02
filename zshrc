@@ -13,7 +13,6 @@ alias ls="exa -laFh --git"
 alias exa="exa -laFh --git"
 alias exatree="exa --tree --level=2"
 alias db="cd ~/dropbox; ls -l"
-alias cd..="cd .."
 alias work="cd ~/work"
 alias personal="cd ~/personal"
 alias man=batman
