@@ -7,6 +7,7 @@
 - link:
     ~/.zshrc:
     ~/.zshenv:
+    ~/.warp:
     ~/.gitconfig:
     ~/.config/bat:
       create: true
@@ -15,11 +16,10 @@
     ~/Library/Application Support/Code/User/settings.json: User/settings.json
 
 - create:
-    - ~/Work
-    - ~/.vim/undo-history
+    - ~/Websites
 
 - shell:
-  -
-    command: ./setup_homebrew.zsh
-    stdout: true
-    stderr: true
+    #    - command: ./setup_homebrew.zsh
+    # stdout: true
+    # stderr: true
+    - echo "hey you guys"

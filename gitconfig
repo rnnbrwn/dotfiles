@@ -1,27 +1,6 @@
-# [user]
-# 	name = Ronnie Brown
-# 	email = ronnie.brown@hilton.com
-# [color]
-# 	ui = auto
-# [commit]
-# 	template = ~/Work/commit-conventions.txt
-
 [user]
 	name = Ronnie Brown
-
-[includeIf "gitdir:~/work/"]
-	path = ~/.gitconfig-work
-	email = ronnie.brown@hilton.com
-
-[includeIf "gitdir:~/personal/"]
-	path = ~/.gitconfig-personal
-	email = 91823+rnnbrwn@users.noreply.github.com
-
-[includeIf "gitdir:~/.dotfiles/"]
-	path = ~/.gitconfig-personal
-	email = 91823+rnnbrwn@users.noreply.github.com
-
-
+    email = 91823+rnnbrwn@users.noreply.github.com
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
