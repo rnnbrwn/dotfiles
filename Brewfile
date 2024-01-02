@@ -62,3 +62,4 @@ mas "Clean", id: 418412301
 mas "GIPHY CAPTURE", id: 668208984
 mas "Magnet", id: 441258766
 mas "Tomato One", id: 907364780
+mas "Things", id: 904280696
