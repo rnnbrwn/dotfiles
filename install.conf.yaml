@@ -19,7 +19,6 @@
     - ~/Websites
 
 - shell:
-    #    - command: ./setup_homebrew.zsh
-    # stdout: true
-    # stderr: true
-    - echo "hey you guys"
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
