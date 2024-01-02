@@ -1,8 +1,6 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -64,3 +62,4 @@ mas "Clean", id: 418412301
 mas "GIPHY CAPTURE", id: 668208984
 mas "Magnet", id: 441258766
 mas "Tomato One", id: 907364780
+mas "Things", id: 904280696
