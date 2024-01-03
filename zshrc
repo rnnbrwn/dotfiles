@@ -4,8 +4,8 @@ echo "Hello from .zshrc"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Create aliases
-alias ls="exa -laFh --git"
-alias exa="exa -laFh --git"
+alias ls="eza -laFh --git"
+alias eza="eza -laFh --git"
 alias exatree="exa --tree --level=2"
 alias db="cd ~/dropbox; ls -l"
 alias work="cd ~/work"
