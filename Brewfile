@@ -6,7 +6,7 @@ tap "homebrew/services"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Modern replacement for 'ls'
 brew "exa"
 # Distributed revision control system
@@ -17,18 +17,20 @@ brew "httpd"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf@21"
 # Open source relational database management system
 brew "mysql"
 # HTTP/2 C Library
 brew "nghttp2"
 # Platform built on V8 to build network applications
-brew "node", link: false
+brew "node"
 # Manage multiple Node.js versions
 brew "nvm"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.11", link: false
+brew "python@3.11"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # JavaScript package manager
