@@ -11,6 +11,7 @@ alias db="cd ~/dropbox; ls -l"
 alias work="cd ~/work"
 alias personal="cd ~/personal"
 alias man=batman
+alias websites="cd ~/Websites"
 
 # Customise prompt(s)
 
