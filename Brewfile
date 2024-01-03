@@ -7,8 +7,8 @@ tap "homebrew/services"
 brew "bat"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
-# Modern replacement for 'ls'
-brew "exa"
+# Modern, maintained replacement for ls
+brew "eza"
 # Distributed revision control system
 brew "git"
 # Apache HTTP server
